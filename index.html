@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Space OP3C</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+		<!-- <nav id="nav">
+			<ul class="container">
+				<li><a href="#top">Main</a></li>
+				<li><a href="./about">About</a></li> -->
+				<!-- <li><a href="./contact.html">Contact</a></li> -->
+			</ul>
+		</nav>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1>Space OP3C</a></h1>
+					<p>JFPGA or SW solution for on-board hi-performance <br>
+						hyperspectral data compression and cloud classification</p>
+				</div>
+				<div class="image"><img width="500" height="200" src="images/OP3C.png" alt=""/></div>
+			</header>
+		<!-- One -->
+		<header id="bits">
+			<div class="content">
+				<h2>On-board Processing for Compression and Clouds Classification</a></h2>
+				<p2>
+					OP3C compression technique achieves <b>high
+					compression ratios, low data distortion,</b>
+					<br>still keeping a <b>limited computation</b>
+					complexity suitable to the on-board
+					constraints.<br>
+					<b>OP3C compressed data can be further
+					processed in their compressed form.<br></b> This
+					is a typical characteristic of the class of
+					techniques known as compressed sensing.<br>
+					The OP3C compression methodology is
+					named <b>HUNPCA</b> (Hybrid Un-mixing Principal
+					Component Analysis) <br>and is based on a
+					spectral un-mixing procedure and PCA
+					combined with a coding algorithm. <br>The
+					international patent was granted to Planetek
+					Hellas (EP3347852)
+				</p2>
+			</div>
+			<div class="image"><img src="images/Comparison.png" alt="" /></div>
+		</header>
+			
+		<!-- Two -->
+		<header id="header">
+			<div class="image"><img src="images/CompressionRatioGraph.png" alt="" /></div>
+
+			<div class="content">
+				<h3>Capabilities</a></h1>
+				<p2>OP3C can consider the cloud coverage, <br>both at pixel level and as overall coverage percentage,<br>
+					 in order to dynamically adapt compression to image content.</p2>
+
+			</div>
+		</header>
+
+
+		<!-- Three -->
+		<header id="bits">
+			<div class="content">
+				<h3>Deployments</a></h1>
+					<p2>The performances of the OP3C compressor
+						have been demonstrated on two different
+						<br>sensors: AVIRIS (airborne) and Hyperion
+						(spaceborne) on the standard dataset <br>(Aaron
+						et al. 2009) adopted by NASA and CCSDS
+						for hyper-spectral compressor benchmarking</p2>
+			</div>
+			<div class="image"><img height=500 width=900 src="images/nasa-logo.png" alt="" /></div>
+
+		</header>
+		
+		<!-- Four -->
+		<header id="header">
+			<div class="image"><img src="images/PerformanceTable.png" alt="" /></div>
+			<div class="content">
+				<h3>Performance</a></h1>
+				<p2>The HUNPCA compression algorithm has been evaluated in terms of  <br>  data loss according to the similarity metric Spectral Angle Difference (SAD) 
+					<br>and the Root Mean Square Error (RMSE). Its performance  <br>is compared with the CCSDS 121.0, 122.0 and 123.0 compressors.</p2>
+			</div>
+		</header>
+		
+
+		<!-- Five -->
+		<header id="bits">
+			<div class="content">
+				<h3>HUNPCA applicable sensors:</a></h1>
+					<ul>
+						<li>Hyperspectral sensors</li>
+						<li>Imaging spectrometers</li>
+						<li>Sounding (infrared) imaging sensors</li>
+						<li>adapts to sensor's characteristics: the greater the spectral resolution, the higher the compression ratio.</li>
+						<li>detects clouds and adapts compression. By applying the compression algorithm only to the land/sea pixels, 
+							<br> the algorithm achieves higher variance description with the same threshold. 
+							<br>This feature allows the algorithm to achieve higher compression ratios with better information modeling.</li>
+						<li>Thermal hyperspectral imagers</li>
+					</ul>
+
+			</div>
+			<div class="image"><img src="images/Compression Figure.png" alt="" /></div>
+		</header>
+
+		<!-- Six -->
+		<header id="header">
+			<!-- <div class="image"><img src="images/CompressionRatioGraph.png" alt="" /></div> -->
+			<div class="content">
+				<h2>MAIN FEATURES:</a></h2>
+				<ul>
+					<li>achieves high compression ratios without significant information losses (estimated data volume reduction from 12 to 22 times)</li>
+					<li>provides both near-lossless or lossy compression modes upon configuration</li>
+					<li>performs de-noising of the hyper-spectral image bands</li>
+					<li>adapts to sensor's characteristics: the greater the spectral resolution, the higher the compression ratio.</li>
+					<li>detects clouds and adapts compression. By applying the compression algorithm only to the land/sea pixels,<br> 
+						the algorithm achieves higher variance description with the same threshold. Th
+						<br>is feature allows the algorithm to achieve higher compression ratios with better information modeling.</li>
+					<li>the algorithm allows data processing in their compressed form, <br>
+						i.e. other processes / workflows can be applied without decompressing the image (e.g. useful for on board classification)</li>
+				</ul>
+			</div>
+			<ul class="actions special">
+				<li><a href="http://www.planetek.it/sites/default/files/spaceOP3C_Brochure.pdf#overlay-context=eng" class="button primary icon solid fa-download">Download our brochure</a></li>
+			</ul>
+		</header>
+		
+		<!-- Contact -->
+		<article id="contact" class="wrapper style4">
+			<div class="container medium">
+				<header>
+					<h2>Contact us:</h2>
+					<h3>Stelios Bollanos</h3>
+					<div class="image"><img src="images/bolanos.jpeg" alt="" /></div>
+					<h4>Cofounder & Director at Planetek Hellas</h4>
+					<p2>mail: bollanos[at]planetek.gr</p2>
+				</header>
+				<div class="row">
+					<div class="col-8">
+						<form method="post" action="mailto:nick@thegreek.dev">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="text" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<input type="text" name="subject" id="subject" placeholder="Subject" />
+								</div>
+								<div class="col-12">
+									<textarea name="message" id="message" placeholder="Message"></textarea>
+								</div>
+								<div class="col-10">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="reset" value="Clear Form" class="alt" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+
+					<hr />
+
+					<div class="col-11">
+						<ul class="social">
+							<a href="https://planetek.gr/" class="fa-website"><span class="label"><img src="images/pkH_logo.png" width="200" height="100" alt="planetek" /></span></a>
+							<a href="https://gr.linkedin.com/company/planetek-italia/" class="icon brands fa-linkedin-in fa-3x"><span class="label">LinkedIn</span></a>
+						</ul>
+						<hr />
+					</div>
+				</div>
+			</div>
+
+			<p2>© 2022 Planetek Hellas</p2>
+
+
+		</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
